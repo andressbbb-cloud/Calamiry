@@ -1,9 +1,4 @@
-local baseLibrary
-if isfile and readfile and isfile("Library.lua") then
-    baseLibrary = loadstring(readfile("Library.lua"))()
-else
-    error("Librarytest.lua requires Library.lua in the same folder.")
-end
+
 
 local Library = baseLibrary
 
